@@ -1,0 +1,23 @@
+services:
+  app:
+    build: .
+    container_name: bcc-app
+    ports:
+      - "8080:8080"
+    environment:
+      CORS_ORIGINS: "http://localhost:3000,http://localhost:5173"
+      DB_HOST: host.docker.internal
+      DB_NAME: bcc_db
+      DB_PASSWORD: "BCC@2024"
+      DB_PORT: 3306
+      DB_USERNAME: root
+      JWT_SECRET: "pBPz4upzXIjSUtA9qwFJwf+6yMjNSkmYr3c+8GUQ2t2GS7fMzwg3x8sPq16plS4+H1EpPTGmvmH+DWpaCRBkfQ=="
+      MAIL_HOST: smtp.gmail.com
+      MAIL_PASSWORD: "algc fejh fyvl rsnv"
+      MAIL_PORT: 587
+      MAIL_USERNAME: Bccrudrapur@gmail.com
+      NOTIFICATION_EMAIL: Bccrudrapur@gmail.com
+      SPRING_PROFILES_ACTIVE: prod
+      UPLOAD_DIR: /app/uploads/
+    volumes:
+      - D:/BccBackend/uploads:/app/uploads

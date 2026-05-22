@@ -1,0 +1,29 @@
+# Maven
+target/
+*.jar
+*.war
+*.class
+
+# Environment Variables - IMPORTANT
+.env
+*.env
+
+# IDE Files
+.idea/
+*.iml
+.vscode/
+*.xml.bak
+
+# Logs
+*.log
+logs/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Uploads - local files
+uploads/
+
+# Docker
+docker-compose.override.yml
