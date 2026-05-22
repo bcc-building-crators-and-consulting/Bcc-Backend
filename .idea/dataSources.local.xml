@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal" created-in="IU-261.24374.151">
+    <data-source name="bcc_db@localhost" uuid="78e63340-69f7-45b4-9e6d-5b7e9d24e00b">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL" />
+      <user-name>${DB_USERNAME}</user-name>
+      <schema-mapping />
+    </data-source>
+  </component>
+</project>
